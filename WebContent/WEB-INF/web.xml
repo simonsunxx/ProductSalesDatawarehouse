@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>usewebxml</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>page/index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description>This is a test</description>
+    <display-name>This is a test</display-name>
+    <servlet-name>AcceptData</servlet-name>
+    <servlet-class>servlet.AcceptData</servlet-class>
+  </servlet>
+    <servlet-mapping>
+    <servlet-name>AcceptData</servlet-name>
+    <url-pattern>/servlet/AcceptData</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>This is a test</description>
+    <display-name>This is a test</display-name>
+    <servlet-name>ChannelServlet</servlet-name>
+    <servlet-class>servlet.ChannelServlet</servlet-class>
+  </servlet>
+    <servlet-mapping>
+    <servlet-name>ChannelServlet</servlet-name>
+    <url-pattern>/servlet/ChannelServlet</url-pattern>
+  </servlet-mapping>
+    <servlet>
+    <description>This is a test</description>
+    <display-name>This is a test</display-name>
+    <servlet-name>CustomerServlet</servlet-name>
+    <servlet-class>servlet.CustomerServlet</servlet-class>
+  </servlet>
+    <servlet-mapping>
+    <servlet-name>CustomerServlet</servlet-name>
+    <url-pattern>/servlet/CustomerServlet</url-pattern>
+  </servlet-mapping>
+      <servlet>
+    <description>This is a test</description>
+    <display-name>This is a test</display-name>
+    <servlet-name>SaleAmountServlet</servlet-name>
+    <servlet-class>servlet.SaleAmountServlet</servlet-class>
+  </servlet>
+    <servlet-mapping>
+    <servlet-name>SaleAmountServlet</servlet-name>
+    <url-pattern>/servlet/SaleAmountServlet</url-pattern>
+  </servlet-mapping>
+        <servlet>
+    <description>This is a test</description>
+    <display-name>This is a test</display-name>
+    <servlet-name>SaleAmountServlet2</servlet-name>
+    <servlet-class>servlet.SaleAmountServlet2</servlet-class>
+  </servlet>
+    <servlet-mapping>
+    <servlet-name>SaleAmountServlet2</servlet-name>
+    <url-pattern>/servlet/SaleAmountServlet2</url-pattern>
+  </servlet-mapping>
+ <servlet>
+    <description>This is a test</description>
+    <display-name>This is a test</display-name>
+    <servlet-name>SaleCountryServlet</servlet-name>
+    <servlet-class>servlet.SaleCountryServlet</servlet-class>
+  </servlet>
+    <servlet-mapping>
+    <servlet-name>SaleCountryServlet</servlet-name>
+    <url-pattern>/servlet/SaleCountryServlet</url-pattern>
+  </servlet-mapping>
+   <servlet>
+    <description>This is a test</description>
+    <display-name>This is a test</display-name>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>servlet.LoginServlet</servlet-class>
+  </servlet>
+    <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/servlet/LoginServlet</url-pattern>
+  </servlet-mapping>
+     <servlet>
+    <description>This is a test</description>
+    <display-name>This is a test</display-name>
+    <servlet-name>SaleAddServlet</servlet-name>
+    <servlet-class>servlet.SaleAddServlet</servlet-class>
+  </servlet>
+    <servlet-mapping>
+    <servlet-name>SaleAddServlet</servlet-name>
+    <url-pattern>/servlet/SaleAddServlet</url-pattern>
+  </servlet-mapping>
+       <servlet>
+    <description>This is a test</description>
+    <display-name>This is a test</display-name>
+    <servlet-name>UserServlet</servlet-name>
+    <servlet-class>servlet.UserServlet</servlet-class>
+  </servlet>
+    <servlet-mapping>
+    <servlet-name>UserServlet</servlet-name>
+    <url-pattern>/servlet/UserServlet</url-pattern>
+  </servlet-mapping>
+         <servlet>
+    <description>This is a test</description>
+    <display-name>This is a test</display-name>
+    <servlet-name>saleDeleteServlet</servlet-name>
+    <servlet-class>servlet.saleDeleteServlet</servlet-class>
+  </servlet>
+    <servlet-mapping>
+    <servlet-name>saleDeleteServlet</servlet-name>
+    <url-pattern>/servlet/saleDeleteServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>This is a test</description>
+    <display-name>This is a test</display-name>
+    <servlet-name>profitServlet</servlet-name>
+    <servlet-class>servlet.profitServlet</servlet-class>
+  </servlet>
+    <servlet-mapping>
+    <servlet-name>profitServlet</servlet-name>
+    <url-pattern>/servlet/profitServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
